@@ -1,0 +1,26 @@
+h1 {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+span {
+    color: aqua;
+}
+
+h2 {
+    background-color: rgb(122, 51, 189);
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: monospace;
+}
+
+h3 {
+    text-align: right;
+    background-color: skyblue;
+    font-family: monospace;
+    color: blueviolet;
+    text-decoration: underline;
+}

@@ -1,0 +1,59 @@
+.container {
+    width: 45%;
+    height: 430px;
+    margin: 50px auto;
+    border: 2px solid rgb(194, 186, 186);
+}
+
+.heading {
+    background-color: rgb(12, 198, 211);
+    width: 100%;
+    height: 120px;
+}
+
+.profilePic {
+    position: absolute;
+    width: 7%;
+    top: 105px;
+    left: 580px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.pin {
+    width: 1.5%;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.city {
+    display: inline-block;
+    margin: 0px 0px 0px 10px;
+    font-size: 1.5em;
+}
+
+.info {
+    font-size: 1.3em;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.gear {
+    width: 3%;
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+a {
+    font-size: 1.3em;
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    top: -6px;
+}

@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 3;
+    display: flex;
+    font-size: 1.8em;
+    justify-content: center;
+    gap: 90px;
+}
+
+.nav-btn {
+    flex: 1;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+a,
+li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.signOut {
+    color: white;
+    background-color: rgb(8, 151, 207);
+    font-size: 1.5em;
+    width: 130px;
+    height: 40px;
+}
+
+main {
+    display: flex;
+}
+
+.leftSide {
+    height: 100vh;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightSide {
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.topRight {
+    flex: 2;
+}
+
+.btmRight {
+    flex: 3;
+}
+
+.topLeft {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.btmLeft {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.request {
+    width: 60%;
+    height: 280px;
+    margin: 100px 0px 30px 10px;
+    border: 2px solid rgb(175, 173, 173);
+}
+
+.top-request {
+    background-color: rgb(32, 30, 30);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#connectionNum {
+    font-size: 1.8em;
+    display: inline-block;
+    background-color: rgb(175, 173, 173);
+    width: 9%;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.connectionReq {
+    font-size: 1.8em;
+    display: inline-block;
+    color: white;
+}
+
+.btm-request {
+    width: 100%;
+    height: 73%;
+}
+
+.yourRequest {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.reqImage {
+    width: 20%;
+    border-radius: 50%;
+    margin: 0px 10px 0px 15px;
+}
+
+.reqButton {
+    width: 15%;
+    margin: 0px 0px 0px 20px;
+}
+
+.reqName {
+    font-size: 1.8em;
+    margin: 0px 30px 0px 0px;
+}
+
+.phil {
+    margin-right: 39px;
+}
+
+.yourConnections {
+    width: 60%;
+    height: 500px;
+    margin: 20px 0px 0px 10px;
+    border: 2px solid rgb(175, 173, 173);
+
+}
+
+#yourConReq {
+    font-size: 1.8em;
+    display: inline-block;
+    background-color: rgb(175, 173, 173);
+    width: 25%;
+    border-radius: 46%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.connections {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.viewMore {
+    width: 100%;
+    height: 60px;
+    border-top: 2px solid rgb(175, 173, 173);
+    display: flex;
+    align-items: center;
+}
+
+.viewMoreLink {
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: rgb(65, 153, 225);
+    margin-left: 20px;
+}
+
+.profile {
+    width: 65%;
+    height: 80%;
+    border: 2px solid rgb(175, 173, 173);
+    margin-top: 100px;
+}
+
+.top-profile {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(8, 151, 207);
+}
+
+.btm-profile {
+    width: 100%;
+    height: 70%;
+}
+
+.profileImgs {
+    width: 3%;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.city {
+    display: inline-block;
+    font-size: 2em;
+    margin: 0px 0px 10px 10px;
+}
+
+.location {
+    display: flex;
+    height: 10%;
+}
+
+.profilePic {
+    width: 18%;
+    margin: 80px 0px 0px 50px
+}
+
+.profileName {
+    font-size: 3em;
+    margin: 80px 0px 30px 60px;
+}
+
+.info {
+    font-size: 2em;
+    margin: 30px 0px 30px 60px;
+}
+
+.editProfile {
+    color: steelblue;
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+.settings {
+    align-items: center;
+}
+
+.education {
+    width: 65%;
+    height: 95%;
+    border: 2px solid rgb(175, 173, 173);
+}
+
+.eduTop {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(32, 30, 30);
+    display: flex;
+    align-items: center;
+}
+
+.eduHead {
+    font-size: 2em;
+    margin-left: 40px;
+}
+
+#class {
+    font-size: 2em;
+    margin: 20px 0px 10px 30px;
+}
+
+#date {
+    font-size: 1.5em;
+    color: rgb(143, 140, 140);
+    margin: 20px 0px 10px 30px;
+}
+
+#bio {
+    font-size: 1.8em;
+    margin: 20px 0px 10px 30px;
+}

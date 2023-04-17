@@ -1,0 +1,143 @@
+nav {
+    width: 80%;
+    background-color: rgb(202, 201, 201);
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-left: 100px;
+    margin-right: 0;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+}
+
+.searchBar {
+    width: 50%;
+    height: 30px;
+    margin-right: 200px;
+    font-size: 1.5em;
+}
+
+.login {
+    width: 10%;
+    height: 40px;
+    font-size: 1.2em;
+    color: white;
+    background-color: dodgerblue;
+    margin: 0px 80px;
+    box-shadow: 2px 2px 2px black;
+}
+
+main {
+    display: flex;
+}
+
+.leftSide {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 1000px;
+}
+
+.topLeft {
+    width: 70%;
+    height: 300px;
+    border: 2px solid black;
+    margin-left: 85px;
+    display: flex;
+}
+
+.btmLeft {
+    width: 70%;
+    height: 350px;
+    margin: 30px 0px 0px 85px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.rightSide {
+    flex: 1;
+}
+
+.leftCard {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    height: 100%;
+}
+
+.rightCard {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+
+.cardTitle {
+    font-size: 3.3em;
+    margin: 25px auto;
+}
+
+.noun {
+    font-size: 2.3em;
+    margin: 0px auto;
+}
+
+.plural {
+    font-size: 1.5em;
+    margin: 25px auto 15px auto;
+}
+
+.likeBtn {
+    width: 50%;
+    margin: 10px auto;
+    height: 40px;
+    box-shadow: 3px 3px 3px black;
+    font-size: 1.3em;
+    background-color: aquamarine;
+}
+
+.cardInfo {
+    font-size: 2em;
+    margin: auto;
+}
+
+.rightBox {
+    width: 40%;
+    height: 290px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightTitle {
+    font-size: 3em;
+    margin: 30px auto 20px auto;
+}
+
+.definition {
+    width: 80%;
+    height: 20%;
+    font-size: 1.5em;
+    box-shadow: 3px 3px 3px black;
+    background-color: aquamarine;
+    margin: 25px auto 0px auto;
+}

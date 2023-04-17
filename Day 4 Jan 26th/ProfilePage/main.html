@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-links">
+            <h1>Profile</h1>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">My Profile</a></li>
+                <li><a href="">Final Connections</a></li>
+            </ul>
+        </div>
+        <div class="nav-btn">
+            <button class="signOut">Sign Out</button>
+        </div>
+    </nav>
+
+<main>
+    <div class="leftSide">
+        <div class="topLeft">
+            <div class="profile">
+                <div class="top-profile">
+                    <img src="/Images/Icons/user-circle.png" alt="Profile Picture" class="profilePic">
+                </div>
+                <div class="btm-profile">
+                    <h2 class="profileName">Jane Doe</h2>
+                    <div class="location">
+                        <img src="/Images/Icons/map-marker.png" alt="Map Marker" class="profileImgs">
+                        <p class="city">Seattle</p>
+                    </div>
+                    <p class="info">Developer | Engineer | Problem Solver <br> Master of shadows and the Internet!</p>
+                    <div class="settings">
+                        <img src="/Images/Icons/gear.png" alt="Gear Icon" class="profileImgs">
+                        <a onclick="changeName(this)" href="#" class="editProfile">edit profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="btmLeft">
+            <div class="education">
+                <div class="eduTop">
+                    <p class="connectionReq eduHead">Education</p>
+                </div>
+                <div class="eduBtm">
+                    <p id="class">Coding Dojo - Full Stack Bootcamp</p>
+                    <p id="date">Dec 2019 - Mar 2020</p>
+                    <p id="bio">Triple black belt in Python, Mern, and C#...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="rightSide">
+        <div class="topRight">
+            <div class="request">
+                <div class="top-request">
+                    <p id="connectionNum">2</p>
+                    <p class="connectionReq">Connection Requests</p>
+                </div>
+                <div class="btm-request">
+                    <div class="yourRequest firstReq">
+                        <img src="/Images/Photos/todd-s.jpg" alt="Todd Image" class="reqImage">
+                        <p class="reqName">Todd E</p>
+                        <img onclick="acceptTod(this)" src="/Images/Icons/accept-circle.png" alt="Accept" class="reqButton">
+                        <img onclick="denyTod(this)"  src="/Images/Icons/close-circle.png" alt="Deny" class="reqButton">
+                    </div>
+                    <div class="yourRequest lastReq">
+                        <img src="/Images/Photos/phil-s.jpg" alt="Phil Image" class="reqImage">
+                        <p class="reqName phil">Phil K</p>
+                        <img onclick="acceptPhil(this)" src="/Images/Icons/accept-circle.png" alt="Accept" class="reqButton">
+                        <img onclick="denyPhil(this)" src="/Images/Icons/close-circle.png" alt="Deny" class="reqButton">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="btmRight">
+            <div class="yourConnections">
+                <div class="top-request">
+                    <p id="yourConReq">418</p>
+                    <p class="connectionReq">Your Connections</p>
+                </div>
+
+                <div class="btm-request">
+                    <div class="connections">
+                        <img src="/Images/Photos/adrien-s.jpg" alt="Adrien Image" class="reqImage">
+                        <p class="reqName">Adrien D</p>
+                    </div>
+                    <div class="connections">
+                        <img src="/Images/Photos/anne-s.jpg" alt="Anne Image" class="reqImage">
+                        <p class="reqName">Anne J</p>
+                    </div>
+                    <div class="connections">
+                        <img src="/Images/Photos/alayne-s.jpg" alt="Alayne Image" class="reqImage">
+                        <p class="reqName">Alayne T</p>
+                    </div>
+                    <div class="connections">
+                        <img src="/Images/Photos/arry-s.jpg" alt="Arry Image" class="reqImage">
+                        <p class="reqName">Arry Image</p>
+                    </div>
+                </div>
+                <div class="viewMore">
+                    <a href="#" class="viewMoreLink">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>

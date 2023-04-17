@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top">
+        <nav>
+            <h1>Dojonary</h1>
+            <form action="submit">
+                <input type="text" class="searchBar" placeholder="Search">
+                <button type="button" class="login" onclick="logOff(this)">Login</button>
+            </form>
+        </nav>
+    </div>
+
+    <main>
+    <div class="leftSide">
+        <div class="topLeft">
+            <div class="leftCard">
+                <h2 class="cardTitle">Ninja</h2>
+                <p class="noun">noun</p>
+                <p class="plural">Plural: ninjas</p>
+                <button type="button" onclick="like(this)" class="likeBtn">13 Likes</button>
+            </div>    
+            <div class="rightCard">
+                <p class="cardInfo">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+        </div>
+        <div class="btmLeft">
+            <div class="leftCard">
+                <h2 class="cardTitle">Ninja</h2>
+                <p class="noun">noun</p>
+                <p class="plural">Plural: ninjas</p>
+                <button type="button" onclick="like(this)" class="likeBtn">37 Likes</button>
+            </div>    
+            <div class="rightCard">
+                <p class="cardInfo">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="rightSide">
+        <div class="rightBox">
+            <h2 class="rightTitle">Dojonary is <br> defined by YOU</h2>
+            <button type="button" class="definition" onclick="goAway(this)">Add Definition</button>
+        </div>
+    </div>
+</main>
+
+<script src="index.js"></script>
+</body>
+</html>

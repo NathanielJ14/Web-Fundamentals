@@ -1,0 +1,44 @@
+.box {
+    width: 30%;
+    height: 200px;
+    margin: 50px 0px 0px 50px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.topBox {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0px 50px 0px 0px;
+}
+
+.likes {
+    font-size: 1.7em;
+    margin: 0px 50px 0px 10px;
+}
+
+button {
+    width: 20%;
+    height: 35px;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: rgb(255, 211, 15);
+    box-shadow: 2px 2px 3px black;
+    border: 2px solid black;
+}
+
+.btmBox {
+    flex: 1;
+}
+
+.filler {
+    font-size: 1.5em;
+    margin-left: 50px;
+}

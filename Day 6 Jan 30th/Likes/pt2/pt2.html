@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Part 2</title>
+    <link rel="stylesheet" href="pt2styles.css">
+</head>
+<body>
+    <nav>
+        <h1>Network</h1>
+    </nav>
+
+<main>
+    <div class="leftSide">
+        <div class="profile">
+            <img src="./Images/user-circle.png" alt="Profile Picture">
+            <a href="#" class="addAvatar">Add an avatar</a>
+            <h2 class="yourName">James Doe</h2>
+        </div>
+    </div>
+
+    <div class="rightSide">
+        <h2 class="feed">Your Feed</h2>
+        <div>
+            <div class="boxContainer">
+                <div class="box">
+                    <div class="topBox">
+                        <h2 class="name">Neil M</h2>
+                        <p class="amtLikes likeOne"> 9 like(s)</p>
+                        <button onclick="addOne(this)" type="button">Like</button>
+                    </div>
+                    <div class="btmBox">
+                        <p class="filler">I just set up this new discord bot, let me know what you all think <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="topBox">
+                        <h2 class="name">Nicole K </h2>
+                        <p class="amtLikes likeTwo"> 12 like(s)</p>
+                        <button onclick="addTwo(this)" type="button">Like</button>
+                    </div>
+                    <div class="btmBox">
+                        <p class="filler">Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="topBox">               
+                        <h2 class="name">Jim R</h2>
+                        <p class="amtLikes likeThree"> 9 like(s)</p>
+                        <button onclick="addThree(this)" type="button">Like</button>
+                    </div>
+                    <div class="btmBox">
+                        <p class="filler">I can't stop listening to the <a href="#">new album</a>. <br> Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="./pt2.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #6495ed;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.cities {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    font-size: 2.3em;
+    margin: 50px;
+}
+
+main {
+    width: 65%;
+    margin: 0px auto;
+}
+
+.topBar {
+    width: 100%;
+    border-bottom: 2px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 2.3em;
+    margin-left: 10px;
+}
+
+.showTemp {
+    font-size: 1.9em;
+}
+
+.tempBox {
+    display: flex;
+}
+
+select {
+    font-size: 1.2em;
+    border: 2px black solid;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.boxContainer {
+    display: flex;
+}
+
+.weatherBox {
+    background-color: rgb(233, 233, 233);
+    margin: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.day {
+    font-size: 2em;
+    margin: 30px 0px 30px 0px;
+}
+
+.weatherImg {
+    width: 80%;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.weatherInfo {
+    font-size: 1.5em;
+    margin-bottom: 35px;
+}
+
+.temps {
+    font-size: 1.7em;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.high {
+    color: red;
+}
+
+.low {
+    color: rgb(30, 83, 241);
+}
+
+.cookieBox {
+    border: 2px black solid;
+    width: 63%;
+    margin-left: 20px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.cookieImg {
+    width: 9%;
+    margin-left: 50px;
+}
+
+.textBox {
+    font-size: 1.5em;
+    margin-left: 60px;
+}
+
+button {
+    font-size: 1.5em;
+    height: 40px;
+    width: 15%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    background-color: #6495ed;
+    margin-left: 150px;
+}
